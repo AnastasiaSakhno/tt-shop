@@ -1,0 +1,26 @@
+<div class="container" style="padding-top: 15px">
+  <div class="row">
+    <div class="col-12">
+      <% if @promotions.any? %>
+        <div class="table-responsive">
+          <table class="table table-striped table-dark">
+            <thead>
+            <tr>
+              <th><%= Spree.t(:name) %></th>
+              <th><%= Spree.t(:description) %></th>
+            </tr>
+            </thead>
+            <tbody>
+            <% @promotions.each do |promotion| %>
+              <tr id="<%= spree_dom_id promotion %>">
+                <td><%= promotion.name %></td>
+                <td><%= promotion.description %></td>
+              </tr>
+            <% end %>
+            </tbody>
+          </table>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+default:
+  navigation:
+    - title: Основания
+      url: /t/blades
+    - title: Накладки
+      url: /t/rubbers
+    - title: Одежда
+      url: /t/apparel
+      items:
+        - :title: Футболки
+          :url: /t/apparel/t-shirts
+        - :title: Шорты
+          :url: /t/apparel/shorts
+        - :title: Шорты-юбки
+          :url: /t/apparel/skirts
+      promo_banners:
+        - subtitle: Специальное предложение
+          title: Скидка 10% на первый заказ
+          url: /t/apparel
+          image: 'meganav/promo_banner_shirks.png'
+    - title: Обувь
+      url: /t/shoes
+      items:
+        - :title: Кроссовки
+          :url: /t/shoes/sneakers
+        - :title: Носки
+          :url: /t/shoes/socks
+      promo_banners:
+        - subtitle: Специальное предложение
+          title: Скидка 10% на первый заказ
+          url: /t/shoes
+          image: 'meganav/promo_banner_shoes.png'
+    - title: Ещё
+      url: /t/more
+      items:
+        - :title: Мячи
+          :url: /t/more/balls
+        - :title: Клей
+          :url: /t/more/glue
+        - :title: Чехлы и кейсы
+          :url: /t/more/cases
+      promo_banners:
+        - url: /t/more
+          image: 'meganav/promo_banner_glue.png'

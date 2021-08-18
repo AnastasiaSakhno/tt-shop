@@ -1,0 +1,57 @@
+ru:
+  spree:
+    call_us_now: 'Телефон: '
+    email: Почта
+    availability: Доступность
+    in_stock: В наличии
+    backordered_info: Под заказ
+    no_results: Нет совпадений
+    account_info: Информация пользователя
+    my_orders: Мои заказы
+    you_have_no_orders_yet: Не было заказов пока что ;)
+    details: Параметры
+    homepage:
+      read_more: "Читать далее"
+      shop_now: "Все товары"
+      all_promotions: "Акции"
+    payment_type: Тип оплаты
+    ship_to: 'Адрес доставки: '
+    checkout_page:
+      back_to_cart: Назад в корзину
+      header: Оформление заказа
+      delivery_method: Способ доставки
+    taxon:
+      shoes: Обувь
+      blades: Основания
+      rubbers: Накладки
+      balls: Мячи
+    product:
+      delivery_method: Доставка Новой Почтой.
+      payment_method: Оплата наложенным платежом или на банковскую карту.
+      return_condition: Внимательно осматривайте товар при получении. Если при получении Вам что-то не понравилось, Вы имеете право вернуть товар. После получения товар возврату не подлежит.
+    plp:
+      availability: Доступность
+      sort_by: Сортировать по
+      filter_by: Фильтровать по
+      no_results: Нет совпадений
+      not_found_filters1: Мы не смогли найти соответствия по заданным фильтрам.
+      not_found_filters2: Пожалуйста, попробуйте выбрать что-нибудь ещё.
+      price: Цена
+      color: Цвет
+      gender: Пол
+      apparelsize: Размер одежды
+      rubberstrategy: Стратегия
+      manufacturer: Производитель
+      bladespeed: Скорость
+      bladegrip: Хват
+      bladehandletype: Тип ручки
+      rubbertype: Тип накладки
+      spongethickness: Толщина губки
+      rubbercolor: Цвет накладки
+      shoessize: Размер обуви
+      subcategories:
+        shakehand: Европейский хват
+        "chinese penhold": Китайское перо
+        "japanese penhold": Японское перо
+        "pimple in": Гладкие
+        "pimple out": Шипы

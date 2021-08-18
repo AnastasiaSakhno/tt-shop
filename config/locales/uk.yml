@@ -1,0 +1,15 @@
+uk:
+  spree:
+    plp:
+      price: Ціна
+      rubberstrategy: Стратегія
+      manufacturer: Виробник
+      bladespeed: Швидкість
+      bladegrip: Хват
+      rubbertype: Тип накладки
+      subcategories:
+        shakehand: Європейський хват
+        "chinese penhold": Китайське перо
+        "japanese penhold": Японське перо
+        "pimple in": Гладенькі
+        "pimple out": Шипи

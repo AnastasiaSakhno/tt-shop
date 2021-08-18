@@ -1,0 +1,13 @@
+en:
+  spree:
+    plp:
+      rubberstrategy: Strategy
+      bladespeed: Speed
+      bladegrip: Grip
+      rubbertype: Rubber type
+      subcategories:
+        shakehand: Shakehand
+        "chinese penhold": Chinese penhold
+        "japanese penhold": Japanese penhold
+        "pimple in": Pimple in
+        "pimple out": Pimple out
