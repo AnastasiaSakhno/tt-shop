@@ -83,10 +83,7 @@
         <%= button_tag class: 'btn btn-primary w-100 text-uppercase font-weight-bold add-to-cart-button', id: 'add-to-cart-button', type: :submit, disabled: true do %>
           <%= Spree.t(:add_to_cart) %>
         <% end %>
-
-        <div><small><%= Spree.t('product.delivery_method') %></small></div>
-        <div><small><%= Spree.t('product.payment_method') %></small></div>
-        <div><small><%= Spree.t('product.return_condition') %></div>
+        <%= link_to Spree.t('product.delivery_and_rights'), '/rights', target: :_blank %>
       </div>
     <% end %>
   </div>
