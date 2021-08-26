@@ -65,6 +65,6 @@
 
   <div class="container position-absolute text-center plp-overlay-buttons pt-3">
     <%= clear_all_filters_link(permitted_params) %>
-    <%= link_to Spree.t('plp.done'), permitted_params, id: 'filterProductsButtonMobile', class: 'btn btn-primary spree-btn w-100 done-btn', data: { params: permitted_params } %>
+    <%= button Spree.t('plp.done'), 'save', 'button', id: 'filter-by-overlay-done-button', class: 'btn btn-primary spree-btn w-100 done-btn' %>
   </div>
 </div>

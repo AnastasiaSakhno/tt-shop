@@ -12,6 +12,9 @@ Spree.ready(function ($) {
   $('#filter-by-overlay-hide-button').click(function () {
     $('#filter-by-overlay').hide();
   });
+  $('#filter-by-overlay-done-button').click(function () {
+    $('#filter-by-overlay').hide();
+  });
 
   function closeNoProductModal() {
     $('#no-product-available').removeClass('shown');
