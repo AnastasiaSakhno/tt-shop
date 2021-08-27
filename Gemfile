@@ -15,6 +15,7 @@ gem 'spree', '~> 4.2'
 gem 'spree_auth_devise', '~> 4.3'
 gem 'spree_gateway', '~> 3.9'
 gem 'spree_i18n', '~> 5.0'
+gem 'spree_sitemap', github: 'spree-contrib/spree_sitemap'
 gem 'sassc', github: 'sass/sassc-ruby', branch: 'master' # only needed for MacOS and Ruby 3.0
 gem 'auto_strip_attributes', '~> 2.6'
 

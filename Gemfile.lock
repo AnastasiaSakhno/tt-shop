@@ -6,6 +6,15 @@ GIT
     sassc (2.4.0)
       ffi (~> 1.9)
 
+GIT
+  remote: https://github.com/spree-contrib/spree_sitemap.git
+  revision: 20a0afb3ff6255fcdd7ea8fa7e8a5ee6f9fc6398
+  specs:
+    spree_sitemap (3.3.1)
+      sitemap_generator
+      spree_core (>= 3.1.0, < 5.0)
+      spree_extension
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -270,6 +279,8 @@ GEM
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
+    sitemap_generator (6.1.2)
+      builder (~> 3.0)
     spree (4.2.5)
       spree_api (= 4.2.5)
       spree_backend (= 4.2.5)
@@ -423,6 +434,7 @@ DEPENDENCIES
   spree_auth_devise (~> 4.3)
   spree_gateway (~> 3.9)
   spree_i18n (~> 5.0)
+  spree_sitemap!
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)

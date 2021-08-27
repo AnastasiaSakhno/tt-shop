@@ -10,3 +10,4 @@ Disallow: /password
 Disallow: /api_tokens
 Disallow: /cart_link
 Disallow: /account_link
+Sitemap: https://tt-life.dp.ua/sitemap.xml.gz
