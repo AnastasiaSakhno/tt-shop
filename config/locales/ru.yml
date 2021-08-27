@@ -28,7 +28,7 @@ ru:
     product:
       delivery_and_rights: Оплата, доставка, условия возврата
       delivery_method: Доставка
-      delivery_method_description: Новой Почтой.
+      delivery_method_description: Новой Почтой. Бесплатно, если сумма заказа превышает 1500 грн. Или по тарифам Новой Почты. От 1 до 40 дней.
       payment_method: Оплата
       payment_method_description: Наложенным платежом или на банковскую карту.
       return_condition: Условия возврата
